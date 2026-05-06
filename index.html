@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AquaClean — Профессиональная автомойка</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <i data-lucide="droplets" class="logo-icon"></i>
+                <span class="logo-text">AquaClean</span>
+            </a>
+            <nav class="nav" id="nav">
+                <a href="#services" class="nav-link">Услуги</a>
+                <a href="#prices" class="nav-link">Цены</a>
+                <a href="#booking" class="nav-link">Записаться</a>
+                <a href="#contacts" class="nav-link">Контакты</a>
+            </nav>
+            <a href="tel:+74951234567" class="header-phone">+7 (495) 123-45-67</a>
+            <button class="burger" id="burger" aria-label="Меню">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Ваша машина заслуживает<br><span class="accent">лучшей мойки</span></h1>
+                <p class="hero-subtitle">Профессиональный уход за автомобилем с 2015 года. Быстро, чисто, бережно.</p>
+                <div class="hero-buttons">
+                    <a href="#booking" class="btn btn-primary">Записаться онлайн</a>
+                    <a href="#services" class="btn btn-outline">Наши услуги</a>
+                </div>
+                <div class="hero-features">
+                    <div class="hero-feature">
+                        <i data-lucide="zap" class="hero-feature-icon"></i>
+                        <span>20 минут</span>
+                    </div>
+                    <div class="hero-feature">
+                        <i data-lucide="shield-check" class="hero-feature-icon"></i>
+                        <span>Гарантия качества</span>
+                    </div>
+                    <div class="hero-feature">
+                        <i data-lucide="leaf" class="hero-feature-icon"></i>
+                        <span>Экошампуни</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 120L60 105C120 90 240 60 360 45C480 30 600 30 720 37.5C840 45 960 60 1080 67.5C1200 75 1320 75 1380 75L1440 75V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z" fill="white"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Наши услуги</h2>
+                <p class="section-subtitle">От быстрой мойки до премиального детейлинга</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i data-lucide="spray-can" class="service-icon"></i>
+                    <h3 class="service-title">Экспресс-мойка</h3>
+                    <p class="service-desc">Быстрая мойка кузова и колёс за 15-20 минут. Идеально для поддержания чистоты.</p>
+                </div>
+                <div class="service-card">
+                    <i data-lucide="sparkles" class="service-icon"></i>
+                    <h3 class="service-title">Комплексная мойка</h3>
+                    <p class="service-desc">Кузов, колёса, стёкла, дверные проёмы, вакуумная уборка салона.</p>
+                </div>
+                <div class="service-card">
+                    <i data-lucide="gem" class="service-icon"></i>
+                    <h3 class="service-title">Детейлинг</h3>
+                    <p class="service-desc">Глубокая очистка, полировка, нанесение защитных покрытий и керамики.</p>
+                </div>
+                <div class="service-card">
+                    <i data-lucide="armchair" class="service-icon"></i>
+                    <h3 class="service-title">Химчистка салона</h3>
+                    <p class="service-desc">Профессиональная чистка сидений, ковриков, потолка и пластика.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prices -->
+    <section class="prices" id="prices">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Прайс-лист</h2>
+                <p class="section-subtitle">Прозрачные цены без скрытых платежей</p>
+            </div>
+            <div class="prices-grid">
+                <div class="price-card">
+                    <h3 class="price-card-title">Экспресс</h3>
+                    <div class="price-card-price">от <span>500</span> ₽</div>
+                    <ul class="price-card-list">
+                        <li>Мойка кузова</li>
+                        <li>Мойка колёс</li>
+                        <li>Сушка</li>
+                    </ul>
+                </div>
+                <div class="price-card price-card--popular">
+                    <div class="price-badge">Популярное</div>
+                    <h3 class="price-card-title">Комплекс</h3>
+                    <div class="price-card-price">от <span>1 200</span> ₽</div>
+                    <ul class="price-card-list">
+                        <li>Мойка кузова и колёс</li>
+                        <li>Стёкла и зеркала</li>
+                        <li>Дверные проёмы</li>
+                        <li>Вакуумная уборка</li>
+                    </ul>
+                </div>
+                <div class="price-card">
+                    <h3 class="price-card-title">Премиум</h3>
+                    <div class="price-card-price">от <span>2 500</span> ₽</div>
+                    <ul class="price-card-list">
+                        <li>Всё из "Комплекса"</li>
+                        <li>Нанесение воска</li>
+                        <li>Чернение резины</li>
+                        <li>Очистка пластика</li>
+                    </ul>
+                </div>
+            </div>
+            <p class="prices-note">* Точная стоимость зависит от класса автомобиля. Для джипов и минивэнов — доплата 20%.</p>
+        </div>
+    </section>
+
+    <!-- Booking -->
+    <section class="booking" id="booking">
+        <div class="container">
+            <div class="booking-wrapper">
+                <div class="booking-info">
+                    <h2 class="section-title">Запишитесь онлайн</h2>
+                    <p class="booking-text">Выберите удобное время, и мы подготовим всё к вашему приезду. Без очередей и ожидания.</p>
+                    <div class="booking-contacts">
+                        <div class="booking-contact">
+                            <i data-lucide="map-pin" class="booking-contact-icon"></i>
+                            <span>г. Москва, ул. Автомобильная, 42</span>
+                        </div>
+                        <div class="booking-contact">
+                            <i data-lucide="phone" class="booking-contact-icon"></i>
+                            <span>+7 (495) 123-45-67</span>
+                        </div>
+                        <div class="booking-contact">
+                            <i data-lucide="clock" class="booking-contact-icon"></i>
+                            <span>Ежедневно с 8:00 до 22:00</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="booking-form" id="bookingForm">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Ваше имя</label>
+                        <input type="text" id="name" name="name" class="form-input" placeholder="Иван" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone" class="form-label">Телефон</label>
+                        <input type="tel" id="phone" name="phone" class="form-input" placeholder="+7 (___) ___-__-__" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="carType" class="form-label">Тип авто</label>
+                            <select id="carType" name="carType" class="form-select" required>
+                                <option value="">Выберите...</option>
+                                <option value="sedan">Седан / Хэтчбек</option>
+                                <option value="suv">Кроссовер / Джип</option>
+                                <option value="minivan">Минивэн / Универсал</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="service" class="form-label">Услуга</label>
+                            <select id="service" name="service" class="form-select" required>
+                                <option value="">Выберите...</option>
+                                <option value="express">Экспресс-мойка</option>
+                                <option value="complex">Комплексная</option>
+                                <option value="premium">Премиум</option>
+                                <option value="detailing">Детейлинг</option>
+                                <option value="interior">Химчистка салона</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="date" class="form-label">Дата</label>
+                            <input type="date" id="date" name="date" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="time" class="form-label">Время</label>
+                            <select id="time" name="time" class="form-select" required>
+                                <option value="">Выберите...</option>
+                                <option value="08:00">08:00</option>
+                                <option value="09:00">09:00</option>
+                                <option value="10:00">10:00</option>
+                                <option value="11:00">11:00</option>
+                                <option value="12:00">12:00</option>
+                                <option value="13:00">13:00</option>
+                                <option value="14:00">14:00</option>
+                                <option value="15:00">15:00</option>
+                                <option value="16:00">16:00</option>
+                                <option value="17:00">17:00</option>
+                                <option value="18:00">18:00</option>
+                                <option value="19:00">19:00</option>
+                                <option value="20:00">20:00</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="comment" class="form-label">Комментарий</label>
+                        <textarea id="comment" name="comment" class="form-textarea" rows="3" placeholder="Особые пожелания..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Записаться</button>
+                    <p class="form-note">Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advantages -->
+    <section class="advantages" id="advantages">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Почему выбирают нас</h2>
+            </div>
+            <div class="advantages-grid">
+                <div class="advantage-item">
+                    <i data-lucide="timer" class="advantage-icon"></i>
+                    <h3 class="advantage-title">Экономия времени</h3>
+                    <p class="advantage-text">Среднее время мойки — 20 минут. Запись онлайн без очередей.</p>
+                </div>
+                <div class="advantage-item">
+                    <i data-lucide="flask-conical" class="advantage-icon"></i>
+                    <h3 class="advantage-title">Профессиональная химия</h3>
+                    <p class="advantage-text">Используем только сертифицированные шампуни и воски.</p>
+                </div>
+                <div class="advantage-item">
+                    <i data-lucide="users" class="advantage-icon"></i>
+                    <h3 class="advantage-title">Опытные мойщики</h3>
+                    <p class="advantage-text">Наша команда проходит регулярное обучение и аттестацию.</p>
+                </div>
+                <div class="advantage-item">
+                    <i data-lucide="recycle" class="advantage-icon"></i>
+                    <h3 class="advantage-title">Экологичность</h3>
+                    <p class="advantage-text">Система рециркуляции воды и биоразлагаемые средства.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts / Footer -->
+    <footer class="footer" id="contacts">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="#" class="logo footer-logo">
+                        <i data-lucide="droplets" class="logo-icon"></i>
+                        <span class="logo-text">AquaClean</span>
+                    </a>
+                    <p class="footer-about">Современная автомойка с заботой о вашем автомобиле и окружающей среде.</p>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-title">Услуги</h4>
+                    <ul class="footer-list">
+                        <li><a href="#services">Экспресс-мойка</a></li>
+                        <li><a href="#services">Комплексная мойка</a></li>
+                        <li><a href="#services">Детейлинг</a></li>
+                        <li><a href="#services">Химчистка</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-title">Контакты</h4>
+                    <ul class="footer-list">
+                        <li><i data-lucide="map-pin" class="footer-icon"></i> г. Москва, ул. Автомобильная, 42</li>
+                        <li><i data-lucide="phone" class="footer-icon"></i> <a href="tel:+74951234567">+7 (495) 123-45-67</a></li>
+                        <li><i data-lucide="mail" class="footer-icon"></i> <a href="mailto:info@aquaclean.ru">info@aquaclean.ru</a></li>
+                        <li><i data-lucide="clock" class="footer-icon"></i> Ежедневно 8:00 – 22:00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 AquaClean. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div class="modal" id="successModal">
+        <div class="modal-content">
+            <i data-lucide="party-popper" class="modal-icon"></i>
+            <h3 class="modal-title">Запись принята!</h3>
+            <p class="modal-text">Мы свяжемся с вами для подтверждения записи в ближайшее время.</p>
+            <button class="btn btn-primary" id="closeModal">Отлично</button>
+        </div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+    <script src="js/main.js"></script>
+</body>
+</html>
